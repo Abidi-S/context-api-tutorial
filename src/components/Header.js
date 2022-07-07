@@ -5,7 +5,7 @@ import "../styles.css";
 const Header = () => {
   return (
     <div>
-      <span>React Context API Tutorial</span>
+      <span className="header">React Context API Tutorial</span>
       <ul className="nav">
         <li className="prod">
           <Link to="/">Home</Link>
