@@ -7,10 +7,10 @@ const Header = () => {
     <div>
       <span className="header">React Context API Tutorial</span>
       <ul className="nav">
-        <li className="prod">
+        <li>
           <Link to="/">Home</Link>
         </li>
-        <li className="prod1">
+        <li>
           <Link to="/cart">Cart</Link>
         </li>
       </ul>
