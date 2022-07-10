@@ -14,12 +14,13 @@ const Home = () => {
     // image: faker.image.food(true),
   }));
 
+  const [cart, setCart] = useState([]);
   const [products] = useState(productsArray);
-
+  console.log(cart);
   return (
     <div className="productContainer">
       {products.map((prod) => (
-        <SingleProduct prod={prod} />
+        <SingleProduct prod={prod} cart={cart} setCart={setCart} />
       ))}
     </div>
   );
